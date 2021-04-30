@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+.bienvenida {
+	display: none;
+	position: absolute;
+	top: 40%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+}
+
+.visible {
+	display: flex !important;
+}
+
+.circulos {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	align-items: flex-end;
+	justify-content: center;
+	z-index: 99;
+}
+
+.circulo {
+	opacity: 30%;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: lightgray;
+	margin-left: 4px;
+}
+
+.dotted {
+	opacity: 100%;
+}
+
+.btn-light:hover {
+	background-color: rgb(241, 241, 241);
+}
+
+.datosUsuario {
+	background-color: white;
+	display: none;
+	position: absolute;
+	top: 30%;
+	left: 43%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.cantVehiculos {
+	background-color: white;
+	display: none;
+	position: absolute;
+	top: 30%;
+	left: 38%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+h2,
+h3 {
+	font-size: 20px;
+}
+
+.carta {
+	box-shadow: 1px 1px 20px rgb(235, 235, 235);
+	padding: 50px 40px 50px 40px;
+	border-radius: 10px;
+}
+
+.aclaracion,
+h3 {
+	color: rgb(196, 196, 196);
+	margin-top: 30px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.carta2 {
+	box-shadow: 1px 1px 20px rgb(235, 235, 235);
+	padding: 50px 40px 40px 40px;
+	border-radius: 10px;
+}
+
+.datosVehiculos {
+	background-color: white;
+	display: none;
+	position: absolute;
+	top: 15%;
+	right: 41%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+}
+
+.carta3 {
+	box-shadow: 1px 1px 20px rgb(235, 235, 235);
+	padding: 0px 80px 20px 80px;
+	border-radius: 10px;
+}
+
+.polizas {
+	background-color: white;
+	display: none;
+	position: absolute;
+	top: 17%;
+	left: 40%;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+}
+
+.tituloPoliza {
+	font-size: 20px;
+	color: rgb(0, 89, 255);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.cartafinal {
+	box-shadow: 1px 1px 20px rgb(235, 235, 235);
+	padding: 50px 40px 50px 40px;
+	border-radius: 10px;
+}
+
+.valores {
+	text-transform: uppercase;
+}
+
+.aseguradoEn {
+	font-weight: 700;
+	color: rgb(47, 207, 33);
+}
+
+.aseguradoValor {
+	text-decoration: underline;
+}
+
+#sigVeh {
+	display: none;
+	position: absolute;
+	top: 37%;
+	right: -20%;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-end;
+	text-align: end;
+}
+
+#antVeh {
+	display: none;
+	position: absolute;
+	top: 37%;
+	left: -20%;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-end;
+	text-align: end;
+}
+
+.mensajeCliente {
+	background-color: transparent;
+	display: none;
+	position: absolute;
+	top: 35%;
+	left: 34%;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+}
+
+.alerta {
+	display: none;
+	position: absolute;
+	top: 5%;
+	right: 0.4%;
+	color: white;
+	background-color: red;
+	padding: 20px 20px 12px 20px;
+	border-radius: 7px;
+	z-index: 99;
+}
+
+.alerta h6 {
+	font-weight: 300;
+}
+
+#alertaRestantes {
+	display: none;
+	position: absolute;
+	top: 5%;
+	right: 0.4%;
+	color: white;
+	background-color: green;
+	padding: 20px 20px 12px 20px;
+	border-radius: 7px;
+	z-index: 99;
+}
+
+#emoji {
+	padding: 0px 4px 0px 0px;
+}
+
+#emoji2 {
+	padding: 0px 0px 0px 4px;
+}
+
+#dmodebtn {
+	display: none;
+	position: absolute;
+	bottom: 5%;
+	right: 2.8%;
+	z-index: -2;
+	background-color: rgb(243, 243, 243);
+	padding: 11px 40px 4px 10px;
+	border-radius: 10px 10px 0px 10px;
+}
+
+#dmodebtn h4 {
+	font-size: 16px;
+}
+
+#alertaCantidadCompleta {
+	display: none;
+	position: absolute;
+	top: 5%;
+	right: 0.4%;
+	color: white;
+	background-color: green;
+	padding: 12px 20px 12px 20px;
+	border-radius: 7px;
+	z-index: 99;
+}
+
+.dark-mode {
+	position: absolute;
+	bottom: 5%;
+	right: 2%;
+	border-radius: 20px;
+	background-image: url(img/darkicon.svg);
+	background-position: 50% 55%;
+	background-repeat: no-repeat;
+	background-size: 25px;
+	padding: 20px;
+	color: #000;
+	z-index: 100;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+	background-color: white;
+}
+
+.white-mode {
+	display: none;
+	position: absolute;
+	bottom: 5%;
+	right: 2%;
+	background-image: url(img/whiteicon.svg);
+	background-position: 50% 50%;
+	border-radius: 20px;
+	background-repeat: no-repeat;
+	background-size: 25px;
+	padding: 20px;
+	color: #000;
+	z-index: 100;
+	background-color: rgb(12, 12, 12);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+}
