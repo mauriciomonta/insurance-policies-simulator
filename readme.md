@@ -9,7 +9,7 @@
 
 ## Built With
 
-- HTML, CSS & jQuery.
+- HTML, CSS & Javascript.
 
 ## Live Demo
 
